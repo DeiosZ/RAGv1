@@ -1,0 +1,8 @@
+La infraestructura de Giantucchi está compuesta por diferentes
+servicios de software que trabajan de manera coordinada.
+
+Los servicios de persistencia permiten almacenar información
+necesaria para las aplicaciones.
+
+Los sistemas de inteligencia artificial pueden utilizar mecanismos
+de recuperación de información para consultar documentación técnica.

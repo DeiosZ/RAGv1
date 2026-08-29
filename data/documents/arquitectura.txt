@@ -1,0 +1,10 @@
+La arquitectura de Giantucchi utiliza PostgreSQL como sistema
+principal de gestión de bases de datos. PostgreSQL permite almacenar
+información estructurada y proporciona mecanismos de consulta,
+transacciones y persistencia de información.
+
+El sistema contempla servicios backend responsables de procesar
+las solicitudes de los usuarios y comunicarse con la base de datos.
+
+La arquitectura también contempla componentes de inteligencia
+artificial capaces de consultar documentación interna.

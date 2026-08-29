@@ -1,0 +1,16 @@
+Un sistema RAG permite que un modelo de lenguaje consulte información
+externa antes de generar una respuesta.
+
+El proceso comienza con la ingesta de documentos. Posteriormente los
+documentos se dividen en fragmentos llamados chunks.
+
+Cada chunk puede convertirse en un embedding mediante un modelo
+especializado. Los embeddings permiten representar semánticamente
+el contenido de los fragmentos.
+
+Durante una consulta, la pregunta también se convierte en un embedding.
+Posteriormente se comparan los vectores para encontrar los fragmentos
+más similares.
+
+Los fragmentos recuperados se utilizan como contexto para el modelo
+de lenguaje.
