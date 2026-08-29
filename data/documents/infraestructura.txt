@@ -1,4 +1,4 @@
-La infraestructura de Giantucchi está compuesta por diferentes
+La infraestructura de RAGV1 está compuesta por diferentes
 servicios de software que trabajan de manera coordinada.
 
 Los servicios de persistencia permiten almacenar información

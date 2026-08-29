@@ -1,4 +1,4 @@
-La arquitectura de Giantucchi utiliza PostgreSQL como sistema
+La arquitectura de RAGV1 utiliza PostgreSQL como sistema
 principal de gestión de bases de datos. PostgreSQL permite almacenar
 información estructurada y proporciona mecanismos de consulta,
 transacciones y persistencia de información.

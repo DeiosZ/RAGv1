@@ -1,15 +1,12 @@
 import numpy as np
 
+def similitud_coseno(vector_a, vector_b) -> float:
+    a = np.asarray(vector_a, dtype=np.float32)
+    b = np.asarray(vector_b, dtype=np.float32)
 
-def cosine_similarity(vector_a, vector_b):
+    norma_a = np.linalg.norm(a)
+    norma_b = np.linalg.norm(b)
 
-    dot_product = np.dot(vector_a, vector_b)
-
-    norm_a = np.linalg.norm(vector_a)
-
-    norm_b = np.linalg.norm(vector_b)
-
-    if norm_a == 0 or norm_b == 0:
+    if norma_a == 0.0 or norma_b == 0.0:
         return 0.0
-
-    return dot_product / (norm_a * norm_b)
+    return float(np.dot(a, b) / (norma_a * norma_b))

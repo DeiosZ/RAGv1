@@ -44,23 +44,17 @@ def print_results(results):
 
     for index, result in enumerate(results, start=1):
 
-        print()
+        print("\n")
         print(f"[{index}] Score: {result['score']:.4f}")
-
         print(f"Documento: {result['filename']}")
-
         print(f"Chunk: {result['chunk_id']}")
-
-        print()
-
+        print("\n")
         print(f"\"{result['content']}\"")
-
-        print()
+        print("\n")
         print("-" * 50)
 
 
 def main():
-
     print("Construyendo base vectorial...")
 
     vector_store = build_vector_store()
