@@ -1,1 +1,2 @@
-pip install sentence-transformers numpy pypdf
+pip install sentence-transformers numpy pypdf qdrant-client python-dotenv
+

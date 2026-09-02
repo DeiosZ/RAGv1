@@ -8,9 +8,6 @@ model = SentenceTransformer(MODEL_NAME)
 
 def generate_embedding(text: str):
 
-    embedding = model.encode(
-        text,
-        convert_to_numpy=True
-    )
+    embedding = model.encode(text,convert_to_numpy=True)
 
     return embedding
